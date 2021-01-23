@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="从表达式“sellerMapper.selectByPrimaryKey(sellerId)”中抽取局部变量“seller”&#x0D;&#x0A;－ 原始项目：“pinyougou-sellergoods-service”&#x0D;&#x0A;－ 变量名称：“seller”&#x0D;&#x0A;－ 目标方法：“com.pinyougou.sellergoods.service.impl.SellerServiceImpl.updateStatus()”&#x0D;&#x0A;－ 变量表达式：“sellerMapper.selectByPrimaryKey(sellerId)”&#x0D;&#x0A;－ 将出现的表达式替换为变量" description="抽取局部变量“seller”" final="false" id="org.eclipse.jdt.ui.extract.temp" input="/src\/main\/java&lt;com.pinyougou.sellergoods.service.impl{SellerServiceImpl.java" name="seller" replace="true" selection="5229 42" stamp="1583721450009" version="1.0"/>
+</session>

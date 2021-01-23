@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="andy-manager-web"/>
+<aop-project name="dubbox.demo-service"/>
+<aop-project name="spring-security.demo"/>
+<aop-project name="demoweb"/>
+</aop-reference-model>

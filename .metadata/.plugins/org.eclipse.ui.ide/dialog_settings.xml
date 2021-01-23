@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="D:\pingYouGou\mavenDemo\andy-parent\andy-shop-web"/>
+			<item value="D:\pingYouGou\mavenDemo\andy-parent\andy-manager-web"/>
+			<item value="D:\pingYouGou\mavenDemo\andy-parent\andy-sellergoods-service"/>
+			<item value="D:\pingYouGou\mavenDemo\andy-parent\andy-sellergoods-interface"/>
+			<item value="D:\pingYouGou\mavenDemo\andy-parent\andy-pojo"/>
+			<item value="D:\pingYouGou\mavenDemo\andy-parent\andy-dao"/>
+			<item value="D:\pingYouGou\品优购学习资料\配套软件\配套软件\配套软件\逆向工程\generatorSqlmapCustom"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

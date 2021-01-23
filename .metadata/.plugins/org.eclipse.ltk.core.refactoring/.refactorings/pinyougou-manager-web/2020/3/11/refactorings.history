@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;spring-security.xml&apos; to &apos;spring&apos;&#x0D;&#x0A;－ 原始项目：“pinyougou-manager-web”&#x0D;&#x0A;－ 目标元素：“spring”&#x0D;&#x0A;－ 原始元素：“spring-security.xml”" description="复制文件" element1="src/main/resources/spring/spring-security.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1583764934840" target="/pinyougou-shop-web/src/main/resources/spring" units="0" version="1.0"/>
+</session>
