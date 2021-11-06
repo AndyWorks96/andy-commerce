@@ -6,13 +6,16 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 						http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
-						http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
+						
+						http://www.springframework.org/schema/security 
+						http://www.springframework.org/schema/security/spring-security.xsd">
 	<!--页面不登录也可以访问  -->
 	<http pattern="/*.html" security="none"></http>
 	<http pattern="/css/**" security="none"></http>
 	<http pattern="/img/**" security="none"></http>
 	<http pattern="/js/**" security="none"></http>
 	<http pattern="/plugins/**" security="none"></http>
+	
 	<!--不能够实现商家入驻功能，没申请怎么登录  -->
 	<http pattern="/seller/add.do" security="none"></http>
 	<!--页面拦截规则  use-expressions:是否启动SPEL表达式 默认是true-->
@@ -44,7 +47,7 @@
 	
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="andy-shop-web" />
-	<dubbo:registry address="zookeeper://192.168.25.130:2181"/>
+	<dubbo:registry address="zookeeper://192.168.1.134:2181"/>
 	<dubbo:reference id="sellerSer" interface="com.andy.sellergoods.service.SellerService"></dubbo:reference>
 	
 	<beans:bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></beans:bean>
