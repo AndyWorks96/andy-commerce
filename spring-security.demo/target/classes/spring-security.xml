@@ -24,6 +24,7 @@
 			<user-service>
 														<!--所属角色 可以有很多用户  -->
 				<user name="admin" password="123456" authorities="ROLE_USER"/>
+				
 			</user-service>
 		</authentication-provider>
 	</authentication-manager>

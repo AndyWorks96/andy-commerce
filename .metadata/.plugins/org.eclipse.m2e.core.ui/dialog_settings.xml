@@ -2,12 +2,12 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.pinyougou"/>
+			<item value="com.equipmentCalculation"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="pinyougou-pojo"/>
+			<item value="andy.equipmentCal"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -46,6 +46,7 @@
 		<item value="590" key="height"/>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -76,6 +77,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\pingYouGou\mavenDemo\andy-parent\andy-manager-web"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -88,12 +90,14 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org."/>
+			<item value="com.equipmentCalculation.equipmentCal.andy"/>
+			<item value="com.equipmentCalculation"/>
 		</list>
 		<list key="groupId">
-			<item value="com.pinyougou"/>
+			<item value="com.equipmentCalculation"/>
 		</list>
 		<list key="artifactId">
+			<item value="equipmentCal.andy"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
